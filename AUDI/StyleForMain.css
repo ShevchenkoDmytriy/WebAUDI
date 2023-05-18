@@ -1,0 +1,88 @@
+
+
+
+@media (min-device-width: 0px)
+{
+    body{
+        background-color: yellow;
+    }
+    .inline-flex-container
+    {
+        display: inline-flex;
+        margin-top: 10px;
+    } 
+    .burger-menu {
+        display: inline-block;
+        cursor: pointer;
+        padding: 10px;
+      }
+      
+      .burger-menu span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        margin-bottom: 5px;
+        background-color: black;
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+      }
+      
+      #burger-checkbox {
+        display: none;
+      }
+      
+      #burger-checkbox:checked ~ .menu {
+        max-height: 300px;
+      }
+      
+      #burger-checkbox:checked ~ .menu li {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      
+      .menu {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-in-out;
+      }
+      
+      .menu ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .menu li {
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+      }
+      
+      .menu li a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+      }
+}
+@media (min-device-width: 1173px)
+{
+    body{
+        background-color: #ccc;
+    }
+    .inline-flex-container
+    {
+        display: inline-flex;
+        margin-top: 10px;
+    } 
+    .color1{
+        background-color: black;
+    }
+    .color2 {
+        background-color: blue;
+    }
+    .color3{
+        background-color: teal;
+    } 
+    .burger-menu{
+        visibility: hidden;
+    }
+}
