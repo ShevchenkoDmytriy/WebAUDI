@@ -146,9 +146,9 @@ li{
     width: 20px;
   }
   .Navi p{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 20px;
-    margin-top: 15px;
+    margin-top: 12px;
   }
   .Navi p a{
     text-decoration: none; 
@@ -179,16 +179,18 @@ li{
   .Baner
   {
 width: 100%;
-height: 100%px;
+height: 100%;
 margin: 0;
 margin-top: -40px;
 margin-left: 0px;
 display: inline-flex;
+background-size: cover;
   }
   .Baner p{
-    font-size: 40px;
+    width: 19em;
+    font-size: 50px;
     color: white;
-margin-left: -60%;
+margin-left: -65%;
 margin-top: 5%;
   }
   .Baner a{
@@ -197,15 +199,143 @@ margin-top: 5%;
     color: black;
 display: inline-flex;
 text-decoration: none;
-height: 17px;
-width: 70px;
-margin-left: 30px;
+margin-left: 22%;
 margin-top: 10%;
   }
   .Baner div{
     background-color: white;
-    margin-left: -150px;
-    margin-top: 150px;
-    height: 50px;
-width: 150px;
+    margin-left: -10em;
+    margin-top: 15em;
+    height: 3em;
+width: 9em;
+  }
+    .auto  div a img{
+    width: 15em;
+    height: 7em;
+  }
+      .auto  div  a.auto1{
+  text-decoration: none; 
+  text-align: center;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+        .auto  div  a:hover{
+  text-decoration: underline; 
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .auto a img:hover{
+width: 16em;
+height: 8em;
+  }
+  .auto{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .auto div{
+    text-align: center;
+    width:16em;
+    height: 10em;
+    margin-left: 0em;
+  }
+  .auto2{
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1em;
+    text-align: center;
+  }
+  .auto2 a{
+    text-decoration:none;
+    color: black;
+  }
+  .auto2 svg{
+margin-left: 5.5em;
+  }
+  .audi-button
+  {
+    height: 3em;
+    padding: 2%;
+    width: 14em;
+  }
+  .auto2 p{
+    margin-top: -6em;
+  }
+  .about1{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    width: 100%;
+  }
+  .about1 div img{
+    width: 560px;
+    height: 312px;
+  }
+  .about{
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -3%;
+  }
+  .about1 div{
+margin: 0.5%;
+display: inline-flex;
+flex-wrap: wrap;
+justify-content: center;
+  }
+  .about1 p{
+    font-size: 16px;
+    margin-top: 0%;
+  }
+  .about1 a{
+    text-decoration: none;
+    color: black;
+  }
+  .audin a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-top: 1em;
+  }
+  .audin p{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
+  .audin a:hover{
+    text-decoration: underline;
+    color: black;
+  }
+  .audin{
+    width: 20%;
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 4.5%;
+    margin-top: 5em;
+    margin-bottom: 1em;
+  }
+  .end{
+    width: 100%;
+    height: 20em;
+    background-color: black;
+    background-size: cover;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+  .end a{
+    text-decoration:none;
+    color: white;
+
+  }
+  .end p{
+    text-decoration:none;
+    color: white;
+    margin-top: -5em;
+  }
+  .end svg{
+    margin-left: 2em;
   }
