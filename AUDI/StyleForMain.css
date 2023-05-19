@@ -139,7 +139,7 @@ li{
     text-decoration: none;
     margin-left: 1%;
   }
-  .Navi img{
+  .Navi  img{
     margin-left: 15%;
   }
   .p1{
@@ -150,13 +150,16 @@ li{
     margin-left: 20px;
     margin-top: 12px;
   }
-  .Navi p a{
+  .Navi a{
     text-decoration: none; 
     color: black;
   }
   .Navi p a:hover{
     text-decoration: none; 
     color: red;
+  }
+  .loga{
+    margin-left: 15%;
   }
   .Navi1{
     height: 100px;
