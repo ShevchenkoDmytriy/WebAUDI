@@ -199,7 +199,7 @@ text-align: center;
 justify-content: space-between;
 margin-left: auto;
 margin-right: auto;
-margin-top: 10%;
+
 }
 .baner1 h2{
     margin-left: auto;
@@ -366,6 +366,41 @@ padding-top: 5em;
 .baner11 h2{
   margin-top: 1em;
   font-size: 42px;
+}
+.auto{
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.auto div{
+  text-align: center;
+  width:16em;
+  height: 10em;
+  margin-left: 0em;
+}
+.auto2{
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1em;
+  text-align: center;
+}
+.auto2 a{
+  text-decoration:none;
+  color: black;
+}
+.auto2 svg{
+margin-left: 5.5em;
+}
+.audi-button
+{
+  height: 3em;
+  padding: 2%;
+  width: 14em;
+}
+.auto2 p{
+  margin-top: -6em;
 }
 
 
