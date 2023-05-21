@@ -178,6 +178,133 @@ li{
 
 
 
+  .baner p{
+ 
+    font-size: 50px;
+    margin-top: 5%;
+    margin-left: -80%;
+    font-weight: 800
+}
+.baner{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+background-size: cover;
+
+}
+.baner1{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+text-align: center;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
+
+}
+.baner1 h2{
+  margin-left: auto;
+margin-right: auto;
+font-size: 66px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 100;
+}
+.auto{
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.auto div{
+  text-align: center;
+  width:16em;
+  height: 10em;
+  margin-left: 0em;
+}
+.auto2{
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1em;
+  text-align: center;
+}
+.auto2 a{
+  text-decoration:none;
+  color: black;
+}
+.auto2 svg{
+margin-left: 5.5em;
+}
+.audi-button
+{
+  height: 3em;
+  padding: 2%;
+  width: 14em;
+}
+.baner4{
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+justify-content: space-between;
+margin-left: auto;
+margin-right: auto;
+margin-top: 4em;
+}
+.baner4 div{
+margin-left: auto;
+margin-right: auto;
+font-size: 38px;
+}
+.speed{
+width: 100%;
+height: 10em;
+  display: flex;
+  flex-direction: row;
+justify-content:center;
+text-align: center;
+}
+.speed div p{
+font-size: 16px;
+display: flex;
+flex-flow: column wrap;
+}
+.speed div {
+  margin: 5%;
+  padding-right: 2%;
+  border-right: 1px solid black ;
+  }
+.num{
+  font-size: 54px;
+}
+.baner6{
+  display: flex;
+      flex-flow: column wrap;
+background-color: #f2f2f2;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 2em;
+}
+.baner6 h2{
+padding-left: 0.5em;
+font-size: 42px;
+}
+.baner9{
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+}
+.baner9 div{
+  width: 60%;
+margin-left: auto;
+margin-right: auto;
+}
+.baner9 h2{
+ font-size: 42px;
+}
+
+
+
   
 .end{
     width: 100%;
